@@ -70,6 +70,7 @@ class Users extends Component {
                     <img width="200" src={this.state.users.avatar_url}/>
                     <h3>{this.state.users.company}</h3>
                     <h4>{this.state.users.location}</h4>
+                    <a href={this.state.users.blog} target="_blank">View My Portfolio</a>
                     <p>{this.state.users.bio}</p>
                 </div>
             </div>
