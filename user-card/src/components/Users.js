@@ -30,11 +30,23 @@ class Users extends Component {
             })
     }
 
-  
+    componentDidUpdate(){
+
+    }
+
     render() {
         return (
             <div>
-                Hello World.
+                <h1>Search for a GitHub User</h1>
+                <input
+                    type="text"
+                    value=""
+                    onChange=""
+                />
+                <button>Search</button>
+                <div>
+                    {/* map over and display the user here */}
+                </div>
             </div>
         )
     }
